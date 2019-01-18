@@ -1,0 +1,279 @@
+{
+  "posts": [
+    {
+      "body": "cao cao..",
+      "userId": "3",
+      "time": "1.12.2018 22:50",
+      "timestamp": "1543873843550",
+      "type": "status",
+      "id": 5
+    },
+    {
+      "body": "Danas je divan dan!",
+      "userId": "1",
+      "time": "6.12.2018 15:27",
+      "timestamp": "1544884023666",
+      "type": "status",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "userId": "3",
+      "imageId": "5",
+      "comment": "Super slika.",
+      "comUserId": "2",
+      "time": "2.12.2018 12:36",
+      "timestamp": "1543923397833",
+      "id": 2
+    },
+    {
+      "userId": "3",
+      "imageId": "5",
+      "comment": "super",
+      "comUserId": "2",
+      "time": "2.12.2018 12:37",
+      "timestamp": "1543923469628",
+      "id": 3
+    },
+    {
+      "userId": "3",
+      "imageId": "5",
+      "comment": "divno",
+      "comUserId": "2",
+      "time": "2.12.2018 12:39",
+      "timestamp": "1543923548169",
+      "id": 4
+    },
+    {
+      "userId": "3",
+      "imageId": "5",
+      "comment": "bla bla",
+      "comUserId": "2",
+      "time": "2.12.2018 12:40",
+      "timestamp": "1543923622635",
+      "id": 5
+    },
+    {
+      "userId": "1",
+      "imageId": "8",
+      "comment": "Moj grad!",
+      "comUserId": "1",
+      "time": "6.12.2018 15:50",
+      "timestamp": "1544885430534",
+      "id": 8
+    },
+    {
+      "userId": "1",
+      "imageId": "5",
+      "comment": "Extra",
+      "comUserId": "1",
+      "time": "6.12.2018 15:51",
+      "timestamp": "1544885473062",
+      "id": 9
+    },
+    {
+      "userId": "3",
+      "imageId": "5",
+      "comment": "Danas je sreda!",
+      "comUserId": "1",
+      "time": "6.12.2018 15:59",
+      "timestamp": "1544885991987",
+      "id": 10
+    },
+    {
+      "userId": "3",
+      "imageId": "5",
+      "comment": "bla bla",
+      "comUserId": "1",
+      "time": "6.12.2018 16:0",
+      "timestamp": "1544886038590",
+      "id": 11
+    },
+    {
+      "userId": "3",
+      "imageId": "5",
+      "comment": "ddd",
+      "comUserId": "1",
+      "time": "6.12.2018 16:3",
+      "timestamp": "1544886192766",
+      "id": 12
+    },
+    {
+      "userId": "1",
+      "imageId": "8",
+      "comment": "Bas lepo",
+      "comUserId": "3",
+      "time": "6.12.2018 16:7",
+      "timestamp": "1544886438320",
+      "id": 13
+    },
+    {
+      "userId": "2",
+      "imageId": "9",
+      "comment": "SUP Sremska Mitrovica!",
+      "comUserId": "3",
+      "time": "6.12.2018 20:29",
+      "timestamp": "1544902145565",
+      "id": 14
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Tamara",
+      "lastName": "Vasic",
+      "email": "taca@gmail",
+      "password": "12345",
+      "month": "8",
+      "day": "17",
+      "year": "1986",
+      "gender": "female",
+      "imageSrc": "slika3.jpg"
+    },
+    {
+      "firstName": "Anita",
+      "lastName": "Vasic",
+      "username": "Aniticabgd",
+      "email": "anci@gmail.com",
+      "password": "312345",
+      "month": "7",
+      "day": "1",
+      "year": "1990",
+      "gender": "Female",
+      "imageSrc": "slika2.jpg",
+      "id": 2
+    },
+    {
+      "firstName": "Ivana",
+      "lastName": "Maric",
+      "username": "IvanaNS",
+      "email": "ivana@gmail.com",
+      "password": "12345",
+      "month": "4",
+      "day": "18",
+      "year": "1986",
+      "gender": "Female",
+      "imageSrc": "slika4.jpg",
+      "id": 3
+    }
+  ],
+  "images": [
+    {
+      "imageURL": "slika2.jpg",
+      "userId": "3",
+      "private": "false",
+      "time": "1.12.2018 23:56",
+      "timestamp": "1543877783594",
+      "type": "img",
+      "id": 2
+    },
+    {
+      "imageURL": "slika3.jpg",
+      "userId": "3",
+      "private": "false",
+      "time": "1.12.2018 23:59",
+      "timestamp": "1543877966231",
+      "type": "img",
+      "id": 3
+    },
+    {
+      "imageURL": "slika4.jpeg",
+      "userId": "3",
+      "private": "false",
+      "time": "1.12.2018 23:59",
+      "timestamp": "1543877979317",
+      "type": "img",
+      "id": 4
+    },
+    {
+      "imageURL": "slika5.jpg",
+      "userId": "3",
+      "private": "false",
+      "time": "2.12.2018 0:27",
+      "timestamp": "1543879652107",
+      "type": "img",
+      "id": 5
+    },
+    {
+      "imageURL": "slika6.jpg",
+      "userId": "2",
+      "private": "false",
+      "time": "2.12.2018 12:56",
+      "timestamp": "1543924577492",
+      "type": "img",
+      "id": 6
+    },
+    {
+      "imageURL": "slika7.jpg",
+      "userId": "1",
+      "private": "false",
+      "time": "6.12.2018 15:28",
+      "timestamp": "1544884080219",
+      "type": "img",
+      "id": 8
+    },
+    {
+      "imageURL": "slika8.jpg",
+      "userId": "2",
+      "private": "false",
+      "time": "6.12.2018 16:33",
+      "timestamp": "1544887996456",
+      "type": "img",
+      "id": 9
+    },
+    {
+      "imageURL": "slika1.jpeg",
+      "userId": "2",
+      "private": "true",
+      "time": "6.12.2018 17:26",
+      "timestamp": "1544891211007",
+      "type": "img",
+      "id": 10
+    },
+    {
+      "imageURL": "39.jpg",
+      "userId": "3",
+      "private": "true",
+      "time": "6.12.2018 17:49",
+      "timestamp": "1544892572168",
+      "type": "img",
+      "id": 11
+    },
+    {
+      "imageURL": "39.jpg",
+      "userId": "1",
+      "private": "true",
+      "time": "6.12.2018 18:50",
+      "timestamp": "1544896206114",
+      "type": "img",
+      "id": 12
+    }
+  ],
+  "galleryComments": [
+    {
+      "id": 1,
+      "userId": "1",
+      "comment": "bla bla",
+      "comGalId": "2",
+      "time": "6.12.2018 18:50",
+      "timestamp": "1544896206114"
+    },
+    {
+      "userId": "2",
+      "comment": "Lepe slike!",
+      "comGalId": "2",
+      "time": "6.12.2018 19:23",
+      "timestamp": "1544898220824",
+      "id": 3
+    },
+    {
+      "userId": "2",
+      "comment": "Dobre fotke!",
+      "comGalId": "2",
+      "time": "6.12.2018 20:2",
+      "timestamp": "1544900524994",
+      "id": 4
+    }
+  ]
+}

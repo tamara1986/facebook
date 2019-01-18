@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Facebook</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div id="logo"><h1>Facebook</h1></div>
+		<nav>
+			<form id="loginForm">
+			<ul class="nav justify-content-end">
+			  <li class="nav-item">
+			    <input type="text" name="emailLog" id="emailLog">
+			  </li>
+			  <li class="nav-item">
+			    <input type="password" name="passwordLog" id="passwordLog">
+			  </li>
+			  <li class="nav-item">
+			    <input type="submit" name="login" value="login">
+			  </li>
+			</ul>
+			</form>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="col"></div>
+			<div class="col">
+				<form id="signUp" enctype=multipart/form-data>
+					<h1>Create an account</h1>
+					<p>It's free and always will be.</p>
+					<div>
+						<input type="text" name="firstName" id="firstName" placeholder="First name">
+					</div>
+					<div>
+						<input type="text" name="lastName" id="lastName" placeholder="Last name">
+					</div>
+					<div>
+						<input type="text" name="username" id="username" placeholder="Username">
+					</div>
+					<div>
+						<input type="email" name="email" id="email" placeholder="Email">
+					</div>
+					<div>
+						<input type="password" name="password" id="password" placeholder="New password">
+					</div>
+					<div>
+						<input type="file" id="image" >
+					</div>
+					<h2>Birthday</h2>
+					<div>
+						<select id="month">
+							<option selected>Month</option>
+							<option value="1">Jan</option>
+							<option value="2">Feb</option>
+							<option value="3">Mar</option>
+							<option value="4">Apr</option>
+							<option value="5">May</option>
+							<option value="6">Jun</option>
+							<option value="7">July</option>
+							<option value="8">Avg</option>
+							<option value="9">Sep</option>
+							<option value="10">Oct</option>
+							<option value="11">Nov</option>
+							<option value="12">Dec</option>
+						</select>
+						<select id="day">
+							<option selected>Day</option>
+						</select>
+						
+						<select id="year">
+							<option selected>Year</option>
+						</select>
+					</div>
+					<div>
+						<input type="radio" name="gender" value="Female" id="female">
+						<label for="female">Female</label>
+					</div>
+					<div>
+						<input type="radio" name="gender" value="Male" id="male">
+						<label for="male">Male</label>
+					</div>
+					<div>
+						<p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</p>
+					</div>
+					<input type="submit" name="submit" value="Sign Up">
+					<div id="success"></div>
+            		<div id="errors"></div>
+				</form>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="js/registracion.js"></script>
+</body>
+</html>

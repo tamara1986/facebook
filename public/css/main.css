@@ -1,0 +1,290 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: 'Arial';
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+	height: 1px;
+	visibility: hidden;
+}
+.container{
+
+	background-color: rgb(233,235,238);
+}
+header{
+	background-color: darkblue;
+	color: white;
+	height: 60px;
+}
+#logo{
+	width: 40%;
+	float: left;
+	margin-left: 10%;
+}
+nav{
+	width: 40%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 10%;
+}
+nav li{
+	margin-right: 1%;
+}
+#signUp{
+	margin-top: 20px;
+	padding: 0 10%;
+}
+#signUp input{
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+}
+#signUp #firstName{
+	display: block;
+	width: 45%;
+	float: left;
+	
+}
+#signUp #lastName{
+	display: block;
+	width: 45%;
+	float: right;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  padding-left: 5px;
+  font-size: 17px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  padding-left: 5px;
+  font-size: 17px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  padding-left: 5px;
+  font-size: 17px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  padding-left: 5px;
+  font-size: 17px;
+}
+input[type="radio"]{
+	display: inline !important;
+	width:5% !important;
+}
+.addFeadPeacture{
+	width: 100%;
+	background-color: white;
+	padding: 2%;
+}
+#home #status{
+	border:none;
+	font-size: 16px !important;
+	height: 60px;
+	width: 80%;
+}
+#home #status:focus{
+	outline: none;
+}
+.feed-photo{
+	width: 20%;
+	float: left;
+}
+.feed-photo img{
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+}
+.feed-author{
+	width: 80%;
+	float: right;
+}
+.feed-content{
+	width: 100%;
+	background-color: white;
+	margin: 10px 0;
+	padding-top: 10px;
+
+}
+#information p{
+	margin-bottom: 0;
+}
+#information{
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
+	padding: 5%;
+}
+.feed-image-status{
+	padding-right: 5%;
+}
+.feed-image-status img{
+	display: block;
+	width: 100%;
+}
+.foto{
+	width: 100%;
+}
+.foto img{
+	display: block;
+	width: 100%;
+}
+#imagesBody #image-container{
+    width: 70%;
+    float: left;
+}
+#imagesBody #image-container img{
+	display: block;
+    width: 100%;
+
+}
+#imagesBody #image-comments-container{
+    width: 30%;
+    float: right;
+    background-color: white;
+}
+#imagesBody .main-content{
+    width: 100%;
+}
+#imagesBody .image-meta{
+    width: 100%;
+}
+#imagesBody #comments{
+    width: 100%;
+    background-color: white;
+    padding: 2%;
+}
+#imagesBody #comments img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+#imagesBody #comments .comment-author-name{
+    width: 200px;
+}
+#imagesBody .comment-content{
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#imagesBody .comment-datetime{
+    text-align: right;
+}
+#imagesBody .add-comment{
+    background-color: white;
+    padding: 1%;
+}
+#imagesBody #new-comment{
+    height: 35px;
+    
+    width: 65%;
+    text-indent: 6px;
+    border:none;
+}
+#imagesBody #img_user{
+	width: 100%;
+	padding: 2%;
+}
+#imagesBody #img_user div:first-child{
+	width: 20%;
+	float: left;
+}
+#imagesBody #img_user div img{
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+}
+#imagesBody #img_user a p{
+	width: 80%;
+	float: right;
+	margin: 15px 0 30px 0;
+}
+.comment-author-image{
+	margin-right: 10px;
+}
+#imagesBody #comments p{
+	margin: 0 !important;
+}
+.add-comment hr{
+	margin: 0;
+}
+.add-comment button{
+	margin-top: 5px;
+}
+#logout {
+	float: right;
+}
+#deletePost{
+	float: right;
+	margin-right:5%;
+	margin-bottom: 5px; 
+}
+#galleryBody #comments{
+	display: block;
+	width: 100%;
+	padding: 5%;
+	background-color: white;
+	margin-left: 5%;
+	
+}
+#galleryBody p{
+	width: 10%;
+}
+#galleryBody .comment-author-image{
+	display: block;
+	width: 100%;
+	float: left;
+}
+#galleryBody .comment-author-name{
+	width: 80%;
+	float: left;
+}
+#galleryBody .comment-content{
+	clear: both;
+	width: 90%;
+	margin-left: 10%;
+	margin-bottom: 0;
+}
+#galleryBody .comment-time{
+	width: 100%;
+	text-align: right;
+	margin-bottom: 0;
+}
+#galleryBody #galerryImg img{
+	height: 220px;
+}
+#galleryBody #galerryImg{
+	margin-bottom: 10px;
+}
+#galleryBody .add-comment{
+	display: block;
+	width: 100%;
+	padding: 0 5%;
+	background-color: white;
+	margin-left: 5%;
+}
+#galleryBody #new-comment{
+	border: none;
+}
+#galleryBody .add-comment button{
+	float: right;
+}
+#imagesBody .add-comment button{
+	float: right;
+}
+#galleryBody #image-comments-container{
+	width: 50%;
+}
+#galleryBody .foto{
+	margin-bottom: 15px;
+}
+#search{
+	border: none;
+	margin-top: 7px;
+}
+#search:focus{
+	outline: none;
+}
